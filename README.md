@@ -1,1 +1,1 @@
-# degree-mapper-frontend
+# degree-mapper
