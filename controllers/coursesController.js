@@ -52,7 +52,7 @@ const deleteCourse = async (req, res) => {
 }
 
 const getCourse = async (req, res) => {
-    if (!req?.params?.id) return res.status(400).json({ 'message': 'Course ID required.' });
+    if (!req?.params?._id) return res.status(400).json({ 'message': 'Course ID required.' });
 
     const course = await Course.findOne({ _id: req.params.id }).exec();
     if (!course) {

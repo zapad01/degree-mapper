@@ -8,7 +8,7 @@ router.route('/')
     .put(coursesController.updateCourse)
     .delete(coursesController.deleteCourse);
 
-router.route('/:id')
+router.route('/:_id')
     .get(coursesController.getCourse);
 
 
