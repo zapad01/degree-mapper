@@ -1,0 +1,11 @@
+[
+    {"_id":{"$oid":"644b25e6513245984f4ee9a7"},"Course":{"$numberInt":"142"},"Description":"Survey of Accounting","AlphaCode":"BUS","Year":"Freshman"},
+    {"_id":{"$oid":"644b25e6513245984f4ee9a8"},"Course":{"$numberInt":"160"},"Description":"Programming Fundamentals II","AlphaCode":"CSC","Year":"Freshman"},
+    {"_id":{"$oid":"644b25e6513245984f4ee9a9"},"Course":{"$numberInt":"208"},"Description":"Business Communications","AlphaCode":"BUS","Year":"Sophomore"},
+    {"_id":{"$oid":"644b25e6513245984f4ee9ab"},"Course":{"$numberInt":"371"},"Description":"Networking III","AlphaCode":"CIS","Year":"Junior"},
+    {"_id":{"$oid":"644b25e6513245984f4ee9ac"},"Course":{"$numberInt":"361"},"Description":"Software Engineering","AlphaCode":"CIS","Year":"Junior"},
+    {"_id":{"$oid":"644b25e6513245984f4ee9ad"},"Course":{"$numberInt":"471"},"Description":"Neworking IV","AlphaCode":"CIS","Year":"Junior"},
+    {"_id":{"$oid":"644b25e6513245984f4ee9ae"},"Course":{"$numberInt":"260"},"Description":"Management Theory and Practice","AlphaCode":"BUS","Year":"Senior"},
+    {"_id":{"$oid":"644b25e6513245984f4ee9af"},"Course":{"$numberInt":"479"},"Description":"Network Design and Administration","AlphaCode":"CIS","Year":"Senior"},
+    {"_id":{"$oid":"644b25e6513245984f4ee9b0"},"Course":{"$numberInt":"450"},"Description":"Server Security and Management","AlphaCode":"CSC","Year":"Senior"}
+]

@@ -1,0 +1,10 @@
+[
+    {"_id":{"$oid":"644b2859513245984f4ee9ba"},"Course":{"$numberInt":"142"},"Description":"Survey of Accounting","AlphaCode":"BUS","Year":"Freshman"},
+    {"_id":{"$oid":"644b2859513245984f4ee9bb"},"Course":{"$numberInt":"208"},"Description":"Business Communications","AlphaCode":"BUS","Year":"Sophomore"},
+    {"_id":{"$oid":"644b2859513245984f4ee9bc"},"Course":{"$numberInt":"260"},"Description":"Management Theory and Practice","AlphaCode":"BUS","Year":"Junior"},
+    {"_id":{"$oid":"644b2859513245984f4ee9bd"},"Course":{"$numberInt":"375"},"Description":"Intro to E-Commerce","AlphaCode":"CIS","Year":"Junior"},
+    {"_id":{"$oid":"644b2859513245984f4ee9be"},"Course":{"$numberInt":"361"},"Description":"Software Engineering","AlphaCode":"CIS","Year":"Junior"},
+    {"_id":{"$oid":"644b2859513245984f4ee9bf"},"Course":{"$numberInt":"465"},"Description":"Advanced Web Development","AlphaCode":"CSC","Year":"Junior"},
+    {"_id":{"$oid":"644b2859513245984f4ee9c0"},"Course":{"$numberInt":"365"},"Description":"Scripting Languages","AlphaCode":"CSC","Year":"Senior"},
+    {"_id":{"$oid":"644b2859513245984f4ee9c1"},"Course":{"$numberInt":"477"},"Description":"Project Management","AlphaCode":"CIS","Year":"Senior"}
+]
