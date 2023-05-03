@@ -1,0 +1,9 @@
+[
+  {"_id":{"$oid":"64431a94ab2d88672e70abf1"},"Course":{"$numberInt":"361"},"Description":"Software Engineering","Alpha Code":"CIS","Year":"Junior"},
+  {"_id":{"$oid":"64431a94ab2d88672e70abf2"},"Course":{"$numberInt":"466"},"Description":"Advanced Database","Alpha Code":"CIS","Year":"Senior"},
+  {"_id":{"$oid":"64431a94ab2d88672e70abf3"},"Course":{"$numberInt":"477"},"Description":"Project Management","Alpha Code":"CIS","Year":"Junior"},
+  {"_id":{"$oid":"64431a94ab2d88672e70abf4"},"Course":{"$numberInt":"160"},"Description":"Programming Fundamentals II","Alpha Code":"CSC","Year":"Freshman"},
+  {"_id":{"$oid":"64431a94ab2d88672e70abf5"},"Course":{"$numberInt":"365"},"Description":"Scripting Languages","Alpha Code":"CSC","Year":"Senior"},
+  {"_id":{"$oid":"64431a94ab2d88672e70abf6"},"Course":{"$numberInt":"142"},"Description":"Survey of Accounting","Alpha Code":"BUS","Year":"Freshman"},
+  {"_id":{"$oid":"64431a94ab2d88672e70abf7"},"Course":{"$numberInt":"208"},"Description":"Business Communications","Alpha Code":"BUS","Year":"Sophomore"}
+]

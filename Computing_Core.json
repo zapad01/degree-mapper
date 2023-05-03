@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "64415753ab2d88672e70abe2"
+  },
+  "Course": 132,
+  "Desciption": "Principals of Computing and Information Systems",
+  "AlphaCode": "CIS"
+},{
+  "_id": {
+    "$oid": "64415753ab2d88672e70abe3"
+  },
+  "Course": 150,
+  "Desciption": "Programming Fundamentals I",
+  "AlphaCode": "CSC"
+},{
+  "_id": {
+    "$oid": "64415753ab2d88672e70abe4"
+  },
+  "Course": 165,
+  "Desciption": "Intro to Web Development",
+  "AlphaCode": "CSC"
+},{
+  "_id": {
+    "$oid": "64415753ab2d88672e70abe5"
+  },
+  "Course": 171,
+  "Desciption": "Networking I",
+  "AlphaCode": "CIS"
+},{
+  "_id": {
+    "$oid": "64415753ab2d88672e70abe6"
+  },
+  "Course": 352,
+  "Desciption": "Into to Enterprise Computing",
+  "AlphaCode": "CIS"
+},{
+  "_id": {
+    "$oid": "64415753ab2d88672e70abe7"
+  },
+  "Course": 360,
+  "Desciption": "CIS: Analysis/Design",
+  "AlphaCode": "CIS"
+},{
+  "_id": {
+    "$oid": "64415753ab2d88672e70abe8"
+  },
+  "Course": 366,
+  "Desciption": "Intro to Data Base",
+  "AlphaCode": "CIS"
+},{
+  "_id": {
+    "$oid": "64415753ab2d88672e70abe9"
+  },
+  "Course": 372,
+  "Desciption": "Computer Harware and Operating Systems",
+  "AlphaCode": "CIS"
+},{
+  "_id": {
+    "$oid": "64415753ab2d88672e70abea"
+  },
+  "Course": 380,
+  "Desciption": "Operating Systems",
+  "AlphaCode": "CSC"
+},{
+  "_id": {
+    "$oid": "64415753ab2d88672e70abeb"
+  },
+  "Course": 480,
+  "Desciption": "Seminar",
+  "AlphaCode": "CIS"
+}]
