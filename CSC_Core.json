@@ -1,9 +1,0 @@
-[
-    {"_id":{"$oid":"64459157513245984f4ee961"},"Course":{"$numberInt":"480"},"AlphaCode":"CSC","Description":"Seminar","Year":"Senior"},
-    {"_id":{"$oid":"64459157513245984f4ee95b"},"Course":{"$numberInt":"132"},"AlphaCode":"CIS","Description":"Principals of Computing and Information Systems","Year":"Freshman"},
-    {"_id":{"$oid":"64459157513245984f4ee960"},"Course":{"$numberInt":"372"},"AlphaCode":"CIS","Description":"Computer Harware and Operating Systems","Year":"Junior"},
-    {"_id":{"$oid":"64459157513245984f4ee95e"},"Course":{"$numberInt":"360"},"AlphaCode":"CIS","Description":"CIS: Analysis/Design","Year":"Junior"},
-    {"_id":{"$oid":"64459157513245984f4ee95c"},"Course":{"$numberInt":"150"},"AlphaCode":"CSC","Description":"Programming Fundamentals I","Year":"Freshman"},
-    {"_id":{"$oid":"64459157513245984f4ee95d"},"Course":{"$numberInt":"171"},"AlphaCode":"CIS","Description":"Networking I","Year":"Sophomore"},
-    {"_id":{"$oid":"64459157513245984f4ee95f"},"Course":{"$numberInt":"366"},"AlphaCode":"CIS","Description":"Intro to Data Base","Year":"Sophomore"}
-]

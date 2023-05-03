@@ -1,0 +1,16 @@
+[
+    {"_id":{"$oid":"64459144513245984f4ee94e"},"Course":{"$numberInt":"320"},"AlphaCode":"CSC","Description":"Computer Organization","Year":"Sophomore"},
+    {"_id":{"$oid":"64459144513245984f4ee951"},"Course":{"$numberInt":"450"},"AlphaCode":"CSC","Description":"Server Security Management","Year":"Senior"},
+    {"_id":{"$oid":"64459144513245984f4ee953"},"Course":{"$numberInt":"361"},"AlphaCode":"CIS","Description":"Software Engineering","Year":"Junior"},
+    {"_id":{"$oid":"64459144513245984f4ee952"},"Course":{"$numberInt":"363"},"AlphaCode":"CSC","Description":"Human-Computer Interaction","Year":"Senior"},
+    {"_id":{"$oid":"64459144513245984f4ee958"},"Course":{"$numberInt":"390"},"AlphaCode":"CSC","Description":"Computer Science Practicum","Year":"Junior"},
+    {"_id":{"$oid":"64459144513245984f4ee959"},"Course":{"$numberInt":"305"},"AlphaCode":"MAT","Description":"Discrete Mathematics","Year":"Junior"},
+    {"_id":{"$oid":"64459144513245984f4ee956"},"Course":{"$numberInt":"180"},"AlphaCode":"MAT","Description":"Applied Probability Statistics","Year":"Sophomore"},
+    {"_id":{"$oid":"64459144513245984f4ee954"},"Course":{"$numberInt":"100"},"AlphaCode":"CNA","Description":"Principles of Human Communication","Year":"Freshman"},
+    {"_id":{"$oid":"64459144513245984f4ee955"},"Course":{"$numberInt":"102"},"AlphaCode":"ENG","Description":"Compostition Skills","Year":"Freshman"},
+    {"_id":{"$oid":"64459144513245984f4ee94c"},"Course":{"$numberInt":"160"},"AlphaCode":"CSC","Description":"Programming Fundamentals I","Year":"Freshman"},
+    {"_id":{"$oid":"64459144513245984f4ee950"},"Course":{"$numberInt":"380"},"AlphaCode":"CSC","Description":"Operating Systems","Year":"Junior"},
+    {"_id":{"$oid":"64459144513245984f4ee94d"},"Course":{"$numberInt":"310"},"AlphaCode":"CSC","Description":"Data Structures","Year":"Sophomore"},
+    {"_id":{"$oid":"64459144513245984f4ee94f"},"Course":{"$numberInt":"345"},"AlphaCode":"CSC","Description":"Computer Graphics","Year":"Sophomore"},
+    {"_id":{"$oid":"64459144513245984f4ee957"},"Course":{"$numberInt":"326"},"AlphaCode":"PHY","Description":"Electronics","Year":"Sophomore"}
+]
