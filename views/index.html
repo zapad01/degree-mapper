@@ -1,52 +1,114 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <!--
-     JavaScript 7th Edition
 
-     Group Project: Group #4
-     Date:   Spring 2023
+<head>
 
-     Filename: index.html
-     -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Degree-Mapper</title>
-    <link rel="stylesheet" type="text/css" href="../public/css/style.css"><!-- need this for the css -->
-    <link href="http://fonts.googleapis.com/css?family=Muli" rel="stylesheet" type="text/css">
-    <script src="main.js" defer></script><!-- need this for the javascript in main.js -->
-    <script type="text/javascript" src="../model/Computing_Core_copy.json"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
-    crossorigin="anonymous">
+  <!--
+
+JavaScript 7th Edition
+
+Group Project: Group #4
+
+Date: Spring 2023
+
+Filename: index.html
+
+-->
+
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Degree-Mapper</title>
+
+  <link rel="stylesheet" type="text/css" href="../public/css/style.css"><!-- need this for the css -->
+
+  <link href="http://fonts.googleapis.com/css?family=Muli" rel="stylesheet" type="text/css">
+
+  <!--script src="main.js" defer></script> need this for the javascript in main.js -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <h1>Degree-Mapper</h1>
+
+  <nav class="mapDeg">
+      <a href="#Home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a class="active" href="index.html">Table</a>
+      <input id="search-input" class="search" type="text" placeholder="Search..">
+  </nav>
+
+  <table class="table table-striped">
+
+    <tr class="big-info">
+
+      <th style="background-color:darkgoldenrod; color:lightgray">Department</th>
+
+      <th style="background-color:darkgoldenrod; color:lightgray">Course Number</th>
+
+      <th style="background-color:darkgoldenrod; color:lightgray">Course Name</th>
+
+      <th style="background-color:darkgoldenrod; color:lightgray">Recommended Grade</th>
+
+    </tr>
+
+    <tbody id="myTable">
+
+    </tbody>
+
+  </table>
+
+  <div id="container"></div>
+
+
+
+</body>
+
+<script src="/socket.io/socket.io.js"></script>
+  <script>
+    var socket = io();
+    var buttonsList = null;
+
+    socket.on('update-table', function( data ){
+      buildTable(data);
+    });
     
-  </head>
+    socket.on('update-buttons', function( data ){
+      buttonsList = data;
+      buildButtons(data);
+    });
+    
+    function CourseListen(data){
+        socket.emit( 'get-course', buttonsList[data] );
+    }
+    
+    function buildButtons(data){
+      var buttonsContainer = document.getElementById('myButtons');
+      for (var i = 0; i < data.length; i++){
+        
+        var button = document.createElement("button");
+        button.id = i;
+        button.textContent = data[i];
+        (function(index){
+          button.addEventListener("click", function() {
+            CourseListen(index)
+          })
+        })(i)
+        buttonsContainer.appendChild(button);
+      }
+    }
+  </script>
 
-  <body>
-
-    <div class="row">
-      <div class="col">
-        <div class="card card-body">
-          <iput id="search-input" class="form-control" type="text"></iput>
-        </div>
-      </div>
-    </div>
-
-    <table class="table table-striped">
-      <tr class="big-info">
-        <th style="background-color:darkgoldenrod; color:lightgray">Department</th>
-        <th style="background-color:darkgoldenrod; color:lightgray">Course Number</th>
-        <th style="background-color:darkgoldenrod; color:lightgray">Course Name</th>
-      </tr>
-
-      <tbody id ="myTable">
-
-      </tbody>
-    </table>
-
-    <div id="container"></div>
-
-  </body>
 </html>
